@@ -1,0 +1,30 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #f8f9fa; /* Light background for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.navbar-brand {
+  font-size: 1.8em; /* Increase the size of the brand name */
+  font-weight: bold; /* Make the brand name bold */
+  color: #4CAF50; /* Brand color */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333; /* Text color for links */
+  font-size: 1.2em; /* Increase font size */
+  padding: 10px 15px; /* Add padding for better spacing */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #4CAF50; /* Change color on hover */
+  background-color: rgba(76, 175, 80, 0.1); /* Light green background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+      margin-bottom: 10px; /* Add spacing between items in mobile view */
+  }
+}
